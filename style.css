@@ -1,3 +1,8 @@
+/* Root element mein define kr diya custom variable! */
+:root{
+    --regular-color: Black;
+    --cool-color: crimson;
+}
 img{
     width: 200px;
     height: 50px;
@@ -11,6 +16,7 @@ img{
     align-items: center;
 }
 .box{
+    
 background-color: aquamarine;
 border: 1px solid black;
 width: 330px;
@@ -23,6 +29,6 @@ padding: 5px;
 /* box-shadow: 10px 15px 5px black; */
 /* Box Shadow with spread radius */
 /* box-shadow: 10px 15px 5px 5px #cb2fd6 */
-box-shadow: inset 10px 15px 5px 5px black
+box-shadow: 10px 15px 1px 5px var(--cool-color)
 
 }

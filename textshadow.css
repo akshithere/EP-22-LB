@@ -1,0 +1,13 @@
+.container{
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head1{
+    text-shadow: 2px 2px 1px red;
+}
