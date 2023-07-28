@@ -1,0 +1,28 @@
+img{
+    width: 200px;
+    height: 50px;
+}
+.container{
+    background-color: beige;
+    height: 550px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+background-color: aquamarine;
+border: 1px solid black;
+width: 330px;
+height: 330px;
+margin: 5px;
+padding: 5px; 
+/* Box shadow with x ka offset and y ka offset */
+/* box-shadow: -10px -15px crimson; */
+/* Box Shadow with blur radius */
+/* box-shadow: 10px 15px 5px black; */
+/* Box Shadow with spread radius */
+/* box-shadow: 10px 15px 5px 5px #cb2fd6 */
+box-shadow: inset 10px 15px 5px 5px black
+
+}
